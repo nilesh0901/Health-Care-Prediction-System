@@ -114,9 +114,14 @@ html {
 	letter-spacing: 2px;
 	margin-bottom: 0;
 	border: none;
+	transition: 0.1s;
 }
 .right-col button[type = submit]:hover {
 	background-color: hsl(154, 73%, 65%);
+}
+/* Click animation */
+.right-col button[type = submit]:active{
+	transform: translate3d(2px,-2px,2px);
 }
 .right-col .form-footer {
 	margin-top: 10px;
